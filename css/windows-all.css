@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 20px 20px 30px 0;
+}
+a{
+    color: black;
+}
+h1>span{
+    font-size: 15px;
+}
+.windows-bq{
+    width: 93%;
+    height: 70px;
+    margin: 5px auto;
+    position: relative;
+    padding: 20px 20px 20px 40px;
+    background-color: white;
+    top: 0;
+    transition: all 1s;
+}
+.windows-bq>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    float: left;
+    transition: 1s;
+    animation-timing-function: ease-in-out;
+}
+.windows-bq-wz{
+    width: 35%;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+}
+.windows-bq-wz>h3{
+    font-size: 25px;
+    transition: 1s;
+    animation-timing-function: ease-in-out;
+}
+.windows-bq-wz>h3>span{
+    font-size: 15px;
+    color: #8c8c8c;
+}
+.windows-bq-wz>span{
+    font-size: 15px;
+    color: #8c8c8c;
+}
+.windows-bq-nr{
+    width: 87%;
+    height: 60%;
+    padding-top: 40px;
+}
+.windows-bq-nr i{
+    font-size: 12px;
+    margin-left: 20px;
+    color: #8c8c8c;
+}
+.windows-bq:hover{
+    top: -5px;
+    box-shadow: 1px 1px 5px grey;
+}
+.windows-bq:hover>.windows-bq-wz>h3{
+    color: #2aabd2;
+}
+.windows-bq:hover>.windows-bq-nr>.check{
+    color: #2aabd2;
+}
+.windows-bq:hover>img{
+    box-shadow: 2px 2px 3px cornflowerblue;
+}
+.pagination {
+    margin: 20px 0 0 35%;
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+

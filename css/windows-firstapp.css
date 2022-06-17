@@ -1,0 +1,121 @@
+body{
+    background-color: #f8fafc;
+}
+.macos-firstapp-big{
+    padding: 0;
+    margin-top: 30px;
+}
+.macos-firstapp-top{
+    width: 100%;
+    background-image: url("../img/macos-firstapp-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.macos-firstapp-left{
+    width: 50%;
+    padding-top: 80px;
+    display: inline-block;
+    vertical-align: top;
+}
+.macos-firstapp-left>img{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+}
+.macos-firstapp-left>i{
+    font-size: 35px;
+    margin-top: 30px;
+}
+.macos-firstapp-left>h1{
+    display: inline-block;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.macos-firstapp-left>span{
+    font-size: 20px;
+    color: #8c8c8c;
+}
+.macos-firstapp-left>a{
+    text-decoration-line: none;
+}
+.macos-firstapp-left>a>button{
+    display: block;
+    margin: 50px auto;
+    width: 45%;
+    height: 60px;
+    border: none;
+    background-color: #50a1ff;
+    border-radius: 50px;
+    font-size: 30px;
+    color: white;
+    transition: all 1s;
+}
+.macos-firstapp-left>a>button:hover{
+    background-color: deepskyblue;
+}
+.macos-firstapp-vs{
+    width: 600px;
+    margin: 10px auto;
+    font-size: 20px;
+    color: #3cd458;
+}
+.macos-firstapp-vs>i{
+    margin-left: 20px;
+}
+.macos-firstapp-right{
+    width: 40%;
+    height: 400px;
+    padding: 65px 0 0 50px;
+    margin: 30px 0 0 30px;
+    background-image: url("../img/Windows-app-zs.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 0 50px;
+    display: inline-block;
+}
+.macos-firstapp-right>img{
+    width: 300px;
+    height: 170px;
+}
+.macos-firstapp-information{
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    background-color: white;
+}
+.macos-firstapp-information>ul>li{
+    width: 16%;
+    height: 100px;
+    padding-top: 5px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    font-family: "Yuanti TC";
+    color: #8c8c8c;
+}
+.macos-firstapp-information>ul>li>span{
+    font-size: 13px;
+}
+.macos-firstapp-information>ul>li>h3{
+    font-size: 20px;
+}
+.macos-firstapp-information>ul>li>h6{
+    font-size: 14px;
+}
+.macos-firstapp-rjjs{
+    width: 100%;
+    padding: 30px 25px;
+    margin: 0 auto;
+    background-color: white;
+}
+.macos-firstapp-rjjs>i{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.macos-firstapp-rjjs>span{
+    font-family: "Yuanti TC";
+    font-size: 20px;
+    color: #8c8c8c;
+    padding-left: 2em;
+}

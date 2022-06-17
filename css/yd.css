@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.yd-big{
+    width: 80%;
+    height: 650px;
+    background-color: #f8fafc;
+    margin: 10px auto;
+}
+.yd-top{
+    width: 100%;
+    height: 100px;
+    padding-left: 25%;
+    background-color: cadetblue;
+}
+.yd-top>ul>li{
+    float: left;
+    font-size: 40px;
+    color: white;
+    list-style: none;
+    line-height: 100px;
+    margin-left: 20px;
+}
+.yd-top>ul>li>img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+.yd-nr{
+    width: 65%;
+    height: 400px;
+    margin: 30px auto;
+    background-color: #8c8c8c;
+}
+.lb-big{
+    width: 70%;
+    margin: 10px auto;
+}
+.lb-tp{
+    width: 100%;
+    height: 400px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.yd-lbk-wz{
+    left: -400px;
+    top: 150px;
+}
+.yd-lbk-wz>h3{
+    font-family: "Yuanti TC";
+}
+.yd-lbk-wz>p{
+    font-family: "Yuanti TC";
+}
+.lb-aj{
+    width: 40px;
+    height: 40px;
+}
+.jdt{
+    width: 80%;
+    margin: 20px auto;
+}
+.yd-button{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background-color: rgba(225,225,225,0);
+}
+h2{
+    color: #333;
+    /* 转大写 */
+    text-transform: uppercase;
+    /*注意下面的background-clip伪类大小相同*/
+    font-size: 40px;
+    /* 相对定位 */
+    position: relative;
+}
+h2::after{
+    content: "点击进入主页>>";
+    color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right,#ff69b3,#fe0000,#ffa401,#ffff01,#008102,#40e1d2,#410098,#9400d4);
+    /*颜色映射的内容*/
+    -webkit-background-clip: text;
+    /* 将元素裁剪为一个圆形（40px表示圆的直径，与h2标签文字大小相同，0% 50%表示圆心的位置） */
+    clip-path: circle(40px at 0% 50%);
+    /* 执行动画（动画 时长 infinite表示无限次播放） */
+    animation: light 3s infinite;
+}
+/* 定义动画 改变圆心的位置 */
+@keyframes light{
+    0%{
+        clip-path: circle(40px at 0% 50%);
+    }
+    100%{
+        clip-path: circle(40px at 100% 50%);
+    }
+}

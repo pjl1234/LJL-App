@@ -1,0 +1,84 @@
+body{
+    background-color: #eeeeee;
+}
+.zt-big{
+    width: 90%;
+    height: 600px;
+    margin: 20px auto;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.zt-hz{
+    width: 340px;
+    height: 210px;
+    display: inline-block;
+    margin: 50px 0 0 60px;
+}
+.tp{
+    width: 290px;
+    height: 210px;
+    display: inline-block;
+    z-index: 1;
+}
+.tp>img{
+    width: 290px;
+    height: 210px;
+    border-radius: 20px;
+}
+.yc{
+    width: 50px;
+    height: 210px;
+    padding-left: 20px;
+    float: right;
+    position: relative;
+    left: -50px;
+    z-index: -1;
+    transition: 0.5s;
+    animation: ease-in-out;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.yc>i{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.qq{
+    color: #2b669a;
+}
+.wechat{
+    color: forestgreen;
+}
+.web{
+    color: goldenrod;
+}
+.hd{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    padding-top: 10px;
+    top: -50px;
+    left: 40px;
+    transition: 0.5s;
+    animation: ease-in-out;
+}
+.hd>h1{
+    font-size: 25px;
+    font-family: "Yuanti TC";
+}
+.hd>h1>span{
+    font-size: 20px;
+}
+.zt-hz:hover>.hd{
+    left: 0;
+    color: #2aabd2;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+}
+.zt-hz:hover>.yc{
+    left: -10px;
+}

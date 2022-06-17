@@ -1,0 +1,60 @@
+.bottom{
+    height: 65px;
+    background-color: rgba(255,255,255);
+    line-height: 65px;
+    padding: 5px 130px 0 230px;
+    text-align: center;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/logo.jpg");
+    background-size: cover;
+    background-position: -12px;
+    border-radius: 100%;
+    float: left;
+}
+.bottom>h2{
+    margin: 10px 50px 0 10px;
+    float: left;
+    font-size: 30px;
+    font-family: "Yuanti TC";
+    color: #3D4247;
+}
+.bottom>a{
+    margin-left: 10px;
+    color: darkgray;
+    text-decoration: none;
+}
+.bottom>a:hover{
+    color: rgba(89,142,221);
+}
+.icp{
+    margin: 0 30px 0 150px;
+}
+@media (max-width: 1290px) {
+    .bottom{
+        padding: 0;
+        height: 60px;
+        background-color: white;
+        text-align: center;
+    }
+    .logo{
+        display: none;
+    }
+    .bottom>h2{
+        margin: -10px 0 0 10px;
+        font-size: 20px;
+        font-family: "Yuanti TC";
+        color: #3D4247;
+        float: none;
+        display: inline-block;
+    }
+    .bottom-wz,.bottom>span{
+        position: absolute;
+        top: -3000px;
+    }
+    .icp{
+        font-size: 13px;
+    }
+}

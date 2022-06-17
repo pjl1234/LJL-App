@@ -1,0 +1,54 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+.no-inter-big{
+    width: 900px;
+    height: 500px;
+    margin: 100px auto;
+}
+.xkl{
+    width: 100%;
+    height: 150px;
+    background-image: url("../img/no-inter-xkl.png");
+    background-position:20px 150px;
+}
+span{
+    font-size: 100px;
+    color: #8c8c8c;
+    display: block;
+    text-align: center;
+}
+h1{
+    margin-top: 30px;
+}
+h4{
+    margin-top: 10px;
+}
+li{
+    margin: 5px 0 0 50px;
+}
+p{
+    margin-top: 40px;
+}
+input{
+    width: 150px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: #535353;
+    margin: 30px 0 0 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
