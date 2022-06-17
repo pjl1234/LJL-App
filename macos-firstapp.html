@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LJL-ToDesk</title>
+    <link rel="stylesheet" href="bs4/css/bootstrap.css">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/macos-firstapp.css">
+    <link rel="stylesheet" type="text/css" href="css/top.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/buttom.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="bs4/js/bootstrap.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/go-top.js"></script>
+    <script src="js/sousuo.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#myBtn").click(function(){
+                $('.toast').toast('show');
+            });
+        });
+    </script>
+</head>
+<body>
+<!--像素提醒-->
+<div class="xstx">
+    sorry!please switch your resolution!
+    <br>
+    对不起！请切换您的分辨率！
+</div>
+<!--右侧悬浮窗-->
+<div class="left-gd">
+    <a href="landing.html">
+        <div class="option">
+            <i class="fa fa-user-circle"></i>
+            <div class="text">登录</div>
+        </div>
+    </a>
+
+    <div class="option">
+        <i class="fa fa-mobile"></i>
+        <div class="text">联系我们</div>
+    </div>
+
+    <div class="option">
+        <i class="fa fa-envelope"></i>
+        <div class="text">投诉建议</div>
+    </div>
+
+    <a  id="btn" href="javascript:" style="display: none">
+        <div class="option">
+            <i class="fa fa-arrow-up"></i>
+            <div class="text">回到顶部</div>
+        </div>
+    </a>
+</div>
+<!--整体大盒子-->
+<div class="big" id="background">
+
+    <!--固定工具栏-->
+    <div class="gjl">
+        <span>欢迎使用岚精灵软件大全！</span>
+        <a href="#">关于我们</a>
+        <a href="#">留言反馈</a>
+        <a href="#">联系我们</a>
+        <button type="button" onclick="shensui()"><h5 id="shensui">深邃</h5></button>
+        <button type="button" onclick="huyan()"><h5 id="huyan">护眼</h5></button>
+        <button type="button" onclick="haitian()"><h5 id="haitian">海天</h5></button>
+        <button type="button" onclick="fugu()"><h5 id="fugu">复古</h5></button>
+    </div>
+    <!--导航栏-->
+    <div class="navbar navbar-expand-md navbar-light bg-light box-shadow">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.jpg" alt="logo" class="pc-logo">
+            <span class="pc-span">LJL-APP</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar" style="color: black">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">首页</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="macos.html">macOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="windows.html">Windows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link zt" href="zt.html">专题</a>
+                </li>
+            </ul>
+            <!--搜索框-->
+            <div class="input-group col-md-3 ssk-div">
+                <input type="text" class="form-control ssk" placeholder="输入关键词搜索软件..." id="key" value="">
+                <span class="input-group-btn">
+                    <a href="no-inter.html" id="href">
+                        <button class="btn btn-info btn_color ssk-button" onclick="ss()"><i class="fa fa-search"></i></button>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!--内容框-->
+    <div class="macos-firstapp-big container">
+        <div class="macos-firstapp-top">
+            <div class="macos-firstapp-left">
+                <img src="img/todesk.png">
+                <i class="fa fa-star-o"></i>
+                <h1>ToDesk 4.1.1 中文版</h1>
+                <br>
+                <span>[官方版，放心有保障！]</span>
+                <br>
+                <a href="https://www.todesk.com/download.html">
+                    <button type="button">
+                        <i class="fa fa-cloud-download"></i>
+                        <span>立即下载</span>
+                    </button>
+                </a>
+                <div class="macos-firstapp-vs">
+                    <i class="fa fa-check">支持 BigSur</i>
+                    <i class="fa fa-check">支持 Monterey</i>
+                    <i class="fa fa-check">支持 M1</i>
+                </div>
+            </div>
+            <div class="macos-firstapp-right">
+                <img src="img/todesk-screen-01-1.png">
+            </div>
+        </div>
+        <div class="macos-firstapp-buttom">
+            <div class="macos-firstapp-information">
+                <ul>
+                    <li>
+                        <span>大小</span>
+                        <br>
+                        <h3>27.1</h3>
+                        <h6>MB</h6>
+                    </li>
+                    <li>
+                        <span>下载</span>
+                        <br>
+                        <h3>9999</h3>
+                        <h6>次</h6>
+                    </li>
+                    <li>
+                        <span>语言</span>
+                        <br>
+                        <h3>中文</h3>
+                        <h6>CN</h6>
+                    </li>
+                    <li>
+                        <span>兼容性</span>
+                        <br>
+                        <h3>>=10.12</h3>
+                        <h6>macOS</h6>
+                    </li>
+                    <li>
+                        <span>类别</span>
+                        <br>
+                        <h3>macOS</h3>
+                        <h6>remote</h6>
+                    </li>
+                    <li>
+                        <span>更新日期</span>
+                        <br>
+                        <h3>2022-01</h3>
+                        <h6>星期三</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="macos-firstapp-rjjs">
+                <i class="fa fa-bullhorn">软件简介</i>
+                <br>
+                <span>ToDesk for Mac 是一款免费而流畅的远程协助软件。ToDesk 支持 1080P 高清屏幕控制以及文件传输。通过多区域机房、G级宽带服务器加速以确保您每一次的远程访问稳定、流畅。在安全方面，通讯数据使用 端到端加密，连接密码仅存于您的设备，ToDesk 官方也无法窥探您的桌面以确保您的每次连接都是安全可靠的。</span>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--底部备案-->
+    <hr style="border-color: black">
+    <div class="bottom">
+        <div class="logo"></div>
+        <h2>LJL-APP</h2>
+        <a href="#" class="bottom-wz">关于我们</a>
+        <a href="#" class="bottom-wz">留言反馈</a>
+        <a href="#" class="bottom-wz">联系我们</a>
+        <a href="#" class="icp">岚ICP备20030323-20210191号</a>
+        <span>LJL-APP.com © 2019. All rights reserved.</span>
+    </div>
+</div>
+</body>
+</html>

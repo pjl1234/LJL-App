@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="软件大全，macOS，Windows，破解版，在线下载"/>
+    <meta name="description" content="欢迎使用岚精灵软件大全！该网站包含多平台软件，包括官方版、破解版......">
+    <title>欢迎光临岚精灵软件大全</title>
+    <link rel="stylesheet" href="bs4/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/top.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/buttom.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/background.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="bs4/js/bootstrap.min.js"></script>
+    <script src="js/go-top.js"></script>
+    <script src="js/sousuo.js"></script>
+</head>
+<body>
+<!--像素提醒-->
+<div class="xstx">
+    sorry!please switch your resolution!
+    <br>
+    对不起！请切换您的分辨率！
+</div>
+<!--广告悬浮窗-->
+
+<div class="index-gg-one" id="gg">
+    <a href="https://tg.xinyou699.cn/xylw/126/index.html?uid=baidu-07&suid=96=xylw&co=hzyw&bd_vid=7653174570034901328">
+        <img src="img/index-gg.png">
+    </a>
+    <button type="button" onclick="gg()">
+        <span>&times;</span>
+    </button>
+</div>
+
+<!--右侧悬浮窗-->
+<div class="left-gd">
+    <a href="landing.html">
+        <div class="option">
+            <i class="fa fa-user-circle"></i>
+            <div class="text">登录</div>
+        </div>
+    </a>
+    <a href="no-inter.html">
+        <div class="option">
+            <i class="fa fa-mobile"></i>
+            <div class="text">联系我们</div>
+        </div>
+    </a>
+    <a href="no-inter.html">
+        <div class="option">
+            <i class="fa fa-envelope"></i>
+            <div class="text">投诉建议</div>
+        </div>
+    </a>
+    <a  id="btn" href="javascript:" style="display: none">
+        <div class="option">
+            <i class="fa fa-arrow-up"></i>
+            <div class="text">回到顶部</div>
+        </div>
+    </a>
+</div>
+<!--整体大盒子-->
+<div class="big" id="background">
+    <!--固定工具栏-->
+    <div class="gjl">
+        <span>欢迎使用岚精灵软件大全！</span>
+        <a href="no-inter.html">关于我们</a>
+        <a href="no-inter.html">留言反馈</a>
+        <a href="no-inter.html">联系我们</a>
+        <button type="button" onclick="shensui()"><h5 id="shensui">深邃</h5></button>
+        <button type="button" onclick="huyan()"><h5 id="huyan">护眼</h5></button>
+        <button type="button" onclick="haitian()"><h5 id="haitian">海天</h5></button>
+        <button type="button" onclick="fugu()"><h5 id="fugu">复古</h5></button>
+    </div>
+    <!--导航栏-->
+    <div class="navbar navbar-expand-md navbar-light bg-light box-shadow">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.jpg" alt="logo" class="pc-logo">
+            <span class="pc-span">LJL-APP</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar" style="color: black">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="macos.html">macOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="windows.html">Windows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link zt" href="zt.html">专题</a>
+                </li>
+            </ul>
+            <!--搜索框-->
+            <div class="input-group col-md-3 ssk-div">
+                <input type="text" class="form-control ssk" placeholder="输入关键词搜索软件..." id="key" value="">
+                <span class="input-group-btn">
+                    <a href="no-inter.html" id="href">
+                        <button class="btn btn-info btn_color ssk-button" onclick="ss()"><i class="fa fa-search"></i></button>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!--中间内容框-->
+    <div class="container indexnr">
+        <!--轮播框-->
+        <div id="lb" class="carousel slide phone-lb" data-ride="carousel">
+            <!-- 指示符 -->
+            <ul class="carousel-indicators">
+                <li data-target="#lb" data-slide-to="0" class="active"style="background-color: black;"></li>
+                <li data-target="#lb" data-slide-to="1"style="background-color: black;"></li>
+            </ul>
+            <!-- 轮播图片 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/lb-1.png">
+                    <div class="carousel-caption index-lbk-wz" style="color: black">
+                        <h3>安全、高效、整洁、简便</h3>
+                        <p>体验一站式解决，进入高效生活！</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/lb-2.png">
+                    <div class="carousel-caption index-lbk-wz" style="color: black">
+                        <h3>温馨提示！</h3>
+                        <p>该网页没有后端支撑，不要太当回事！</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 左右切换按钮 -->
+            <a class="carousel-control-prev" href="#lb" data-slide="prev">
+                <span class="carousel-control-prev-icon" style="background-color: grey;border-radius: 100%"></span>
+            </a>
+            <a class="carousel-control-next" href="#lb" data-slide="next">
+                <span class="carousel-control-next-icon" style="background-color: grey;border-radius: 100%"></span>
+            </a>
+        </div>
+        <!--过渡分类块-->
+        <a href="no-inter.html">
+            <div class="zjbb">
+                <i class="fa fa-shopping-bag"></i>
+                装机必备
+            </div>
+        </a>
+        <a href="no-inter.html">
+            <div class="macos-app">
+                <i class="fa fa-apple"></i>
+                macOS应用
+            </div>
+        </a>
+        <a href="no-inter.html">
+            <div class="windows-app">
+                <i class="fa fa-windows"></i>
+                Windows应用
+            </div>
+        </a>
+        <a href="no-inter.html">
+            <div class="gd-app">
+                <i class="fa fa-cloud"></i>
+                更多软件
+            </div>
+        </a>
+        <!--精品推荐板块-->
+        <div class="jptj">
+            <i class="fa fa-briefcase"></i>
+            精品推荐
+            <a href="#">更多软件></a>
+        </div>
+        <div class="jptj-app">
+            <img src="img/jptj1.png">
+            <h4>Artstudio</h4>
+            <br>
+            <span>绘画和作品编辑应用</span>
+            <br>
+            <span>Pro 4.0.13</span>
+            <br>
+            <i class="fa fa-fighter-jet"></i>
+        </div>
+        <div class="jptj-app">
+            <img src="img/360zip.png">
+            <h4>360ZIP</h4>
+            <br>
+            <span>360解压软件</span>
+            <br>
+            <span>4.0.13</span>
+            <br>
+            <i class="fa fa-fighter-jet"></i>
+        </div>
+        <div class="jptj-app">
+            <img src="img/ad.png">
+            <h4>AUTODESK</h4>
+            <br>
+            <span>计算机辅助设计软件</span>
+            <br>
+            <span>2019</span>
+            <br>
+            <i class="fa fa-fighter-jet"></i>
+        </div>
+        <div class="jptj-app">
+            <img src="img/ae.png">
+            <h4>AE</h4>
+            <br>
+            <span>绘画和作品编辑应用</span>
+            <br>
+            <span>Pro 4.0.13</span>
+            <br>
+            <i class="fa fa-fighter-jet"></i>
+        </div>
+        <div class="jptj-app">
+            <img src="img/cpu-z.png">
+            <h4>CPU-Z</h4>
+            <br>
+            <span>绘画和作品编辑应用</span>
+            <br>
+            <span>Pro 4.0.13</span>
+            <br>
+            <i class="fa fa-fighter-jet"></i>
+        </div>
+        <div class="jptj-app">
+            <img src="img/everweb-1.png">
+            <h4>Artstudio</h4>
+            <br>
+            <span>绘画和作品编辑应用</span>
+            <br>
+            <span>Pro 4.0.13</span>
+            <br>
+            <i class="fa fa-fighter-jet"></i>
+        </div>
+        <div class="jptj-app">
+            <img src="img/grandtotal-bs.png">
+            <h4>Artstudio</h4>
+            <br>
+            <span>绘画和作品编辑应用</span>
+            <br>
+            <span>Pro 4.0.13</span>
+            <br>
+            <i class="fa fa-fighter-jet"></i>
+        </div>
+        <div class="jptj-app">
+            <img src="img/gsgc.png">
+            <h4>Artstudio</h4>
+            <br>
+            <span>绘画和作品编辑应用</span>
+            <br>
+            <span>Pro 4.0.13</span>
+            <br>
+            <i class="fa fa-fighter-jet"></i>
+        </div>
+    </div>
+    <!--文章推送-->
+    <div class="wzts-big" id="wzts-bg">
+        <div class="jptj wzts-i">
+            <i class="fa fa-paper-plane-o"></i>
+            文章推送
+            <a href="no-inter.html">更多文章></a>
+        </div>
+        <div class="wzts">
+            <img src="img/wzts-2.jpeg">
+            <div class="wzts-wz">
+                <h2>新手快速掌握计算机？</h2>
+                <span>对于一位零基础的人来说，操作电脑会变得很难...</span>
+                <br>
+                <i class="fa fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="wzts">
+            <img src="img/wzts-3.jpeg">
+            <div class="wzts-wz">
+                <h2>成为合格的程序员？</h2>
+                <span>掌握基础知识 不管任何行业和任何工作,概念的理解...</span>
+                <br>
+                <i class="fa fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="wzts">
+            <img src="img/wzts-4.png">
+            <div class="wzts-wz">
+                <h2>快速提升输入法？</h2>
+                <span>准确是第一前提 我们反复说打字是一种最基本的技能...</span>
+                <br>
+                <i class="fa fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="wzts">
+            <img src="img/wzts-1.webp">
+            <div class="wzts-wz">
+                <h2>macOS操作指南？</h2>
+                <span>iOS系统和macOS系统的设备其实有很多彩蛋和功能,苹果出于...</span>
+                <br>
+                <i class="fa fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+    <!--底部备案-->
+    <hr style="border-color: black">
+    <div class="bottom">
+        <div class="logo"></div>
+        <h2>LJL-APP</h2>
+        <a href="no-inter.html" class="bottom-wz">关于我们</a>
+        <a href="no-inter.html" class="bottom-wz">留言反馈</a>
+        <a href="no-inter.html" class="bottom-wz">联系我们</a>
+        <a href="https://www.beian.gov.cn/portal/index.do" class="icp">岚ICP备20030323-20210191号</a>
+        <span>LJL-APP.com © 2019. All rights reserved.</span>
+    </div>
+</div>
+</body>
+</html>

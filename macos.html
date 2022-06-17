@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>macOS-APP</title>
+    <link rel="stylesheet" href="bs4/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/macos.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/top.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/buttom.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/background.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="bs4/js/bootstrap.min.js"></script>
+    <script src="js/go-top.js"></script>
+    <script src="js/sousuo.js"></script>
+</head>
+<body>
+<!--像素提醒-->
+<div class="xstx">
+    sorry!please switch your resolution!
+    <br>
+    对不起！请切换您的分辨率！
+</div>
+<!--右侧悬浮窗-->
+<div class="left-gd">
+    <a href="landing.html">
+        <div class="option">
+            <i class="fa fa-user-circle"></i>
+            <div class="text">登录</div>
+        </div>
+    </a>
+    <a href="no-inter.html">
+        <div class="option">
+            <i class="fa fa-mobile"></i>
+            <div class="text">联系我们</div>
+        </div>
+    </a>
+    <a href="no-inter.html">
+        <div class="option">
+            <i class="fa fa-envelope"></i>
+            <div class="text">投诉建议</div>
+        </div>
+    </a>
+    <a  id="btn" href="javascript:" style="display: none">
+        <div class="option">
+            <i class="fa fa-arrow-up"></i>
+            <div class="text">回到顶部</div>
+        </div>
+    </a>
+</div>
+<!--整体大盒子-->
+<div class="big" id="background">
+    <!--固定工具栏-->
+    <div class="gjl">
+        <span>欢迎使用岚精灵软件大全！</span>
+        <a href="no-inter.html">关于我们</a>
+        <a href="no-inter.html">留言反馈</a>
+        <a href="no-inter.html">联系我们</a>
+        <button type="button" onclick="shensui()"><h5 id="shensui">深邃</h5></button>
+        <button type="button" onclick="huyan()"><h5 id="huyan">护眼</h5></button>
+        <button type="button" onclick="haitian()"><h5 id="haitian">海天</h5></button>
+        <button type="button" onclick="fugu()"><h5 id="fugu">复古</h5></button>
+    </div>
+    <!--导航栏-->
+    <div class="navbar navbar-expand-md navbar-light bg-light box-shadow">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.jpg" alt="logo" class="pc-logo">
+            <span class="pc-span">LJL-APP</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar" style="color: black">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">首页</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="macos.html">macOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="windows.html">Windows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link zt" href="zt.html">专题</a>
+                </li>
+            </ul>
+            <!--搜索框-->
+            <div class="input-group col-md-3 ssk-div">
+                <input type="text" class="form-control ssk" placeholder="输入关键词搜索软件..." id="key" value="">
+                <span class="input-group-btn">
+                    <a href="no-inter.html" id="href">
+                        <button class="btn btn-info btn_color ssk-button" onclick="ss()"><i class="fa fa-search"></i></button>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!--中间内容框-->
+    <div class="macos-nr">
+        <span>分类</span>
+        <a href="iframe/macos-all.html" target="test" style="color: #1b6d85">全部软件 ></a>
+        <a href="iframe/macos-xt.html" target="test">系统工具 ></a>
+        <a href="iframe/macos-rjyy.html" target="test">软件应用 ></a>
+        <a href="iframe/macos-txsj.html" target="test">图像设计 ></a>
+        <a href="iframe/macos-wlgj.html" target="test">网络工具 ></a>
+        <a href="iframe/macos-mtgj.html" target="test">媒体工具 ></a>
+        <a href="iframe/macos-cxkf.html" target="test">程序开发 ></a>
+    </div>
+    <iframe name="test" src="iframe/macos-all.html">
+    </iframe>
+
+    <!--底部备案-->
+    <hr style="border-color: black">
+    <div class="bottom">
+        <div class="logo"></div>
+        <h2>LJL-APP</h2>
+        <a href="no-inter.html" class="bottom-wz">关于我们</a>
+        <a href="no-inter.html" class="bottom-wz">留言反馈</a>
+        <a href="no-inter.html" class="bottom-wz">联系我们</a>
+        <a href="https://www.beian.gov.cn/portal/index.do" class="icp">岚ICP备20030323-20210191号</a>
+        <span>LJL-APP.com © 2019. All rights reserved.</span>
+    </div>
+</div>
+</body>
+</html>
